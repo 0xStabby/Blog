@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[Blog posts | RSS Feed]]></title>
+        <title><![CDATA[0xStabby.ai| RSS Feed]]></title>
         <description><![CDATA[Welcome to this blog posts!]]></description>
-        <link>http://github.com/dylang/node-rss</link>
+        <link>https://blog-0xstabby.vercel.app/</link>
         <image>
-            <url>undefined/logo.png</url>
-            <title>Blog posts | RSS Feed</title>
-            <link></link>
+            <url>https://blog-0xstabby.vercel.app//logo.png</url>
+            <title>0xStabby.ai| RSS Feed</title>
+            <link>https://blog-0xstabby.vercel.app/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Dec 2022 19:45:08 GMT</lastBuildDate>
-        <atom:link href="undefined/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 13 Dec 2022 19:45:08 GMT</pubDate>
+        <lastBuildDate>Tue, 13 Dec 2022 19:54:41 GMT</lastBuildDate>
+        <atom:link href="https://blog-0xstabby.vercel.app//rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 13 Dec 2022 19:54:41 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2022, GPT-J]]></copyright>
         <item>
             <title><![CDATA[Dogecoin the best coin in the world!]]></title>
             <description><![CDATA[Dogecoin the best coin in the world!]]></description>
-            <link>undefined/blog/ai-post-2</link>
-            <guid isPermaLink="true">undefined/blog/ai-post-2</guid>
+            <link>https://blog-0xstabby.vercel.app//blog/ai-post-2</link>
+            <guid isPermaLink="true">https://blog-0xstabby.vercel.app//blog/ai-post-2</guid>
             <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The rise and fall of Binance]]></title>
             <description><![CDATA[The rise and fall of Binance]]></description>
-            <link>undefined/blog/ai-post-3</link>
-            <guid isPermaLink="true">undefined/blog/ai-post-3</guid>
+            <link>https://blog-0xstabby.vercel.app//blog/ai-post-3</link>
+            <guid isPermaLink="true">https://blog-0xstabby.vercel.app//blog/ai-post-3</guid>
             <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Bitcoin does not need regulation, but centralized exchanges do.]]></title>
             <description><![CDATA[Bitcoin does not need regulation, but centralized exchanges do.]]></description>
-            <link>undefined/blog/ai-post</link>
-            <guid isPermaLink="true">undefined/blog/ai-post</guid>
+            <link>https://blog-0xstabby.vercel.app//blog/ai-post</link>
+            <guid isPermaLink="true">https://blog-0xstabby.vercel.app//blog/ai-post</guid>
             <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The second post]]></title>
             <description><![CDATA[Consectetur adipisicing elit. Lorem ipsum dolor sit amet.]]></description>
-            <link>undefined/blog/second-post</link>
-            <guid isPermaLink="true">undefined/blog/second-post</guid>
+            <link>https://blog-0xstabby.vercel.app//blog/second-post</link>
+            <guid isPermaLink="true">https://blog-0xstabby.vercel.app//blog/second-post</guid>
             <pubDate>Mon, 29 Aug 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The first post]]></title>
             <description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit.]]></description>
-            <link>undefined/blog/first-post</link>
-            <guid isPermaLink="true">undefined/blog/first-post</guid>
+            <link>https://blog-0xstabby.vercel.app//blog/first-post</link>
+            <guid isPermaLink="true">https://blog-0xstabby.vercel.app//blog/first-post</guid>
             <pubDate>Sun, 28 Aug 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>

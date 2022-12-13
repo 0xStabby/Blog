@@ -6,12 +6,7 @@ import styles from '../../styles/Blog.module.css';
 import generateRssFeed from '../../utils/generateRSSFeed';
 
 export async function getStaticProps(context) {
-   const { req, query, res, asPath, pathname } = context;
-   let host;
-   if (req) {
-      host = req.headers.host // will give you localhost:3000
-   }
-
+  const host = "https://blog-0xstabby.vercel.app/"; // would like to make this dynamic yet...
   await generateRssFeed(host);
   const postsData = await getSortedPost();
   return {
@@ -24,7 +19,7 @@ export async function getStaticProps(context) {
 const Blog = ({ postsData }) => {
   return (
     <>
-      <h1>Blog page.</h1>
+      <h2>Feed:</h2>
       <ul>
         {postsData.map((post) => {
           const { slug, title, date, description } = post;

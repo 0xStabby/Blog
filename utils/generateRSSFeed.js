@@ -3,11 +3,12 @@ import RSS from 'rss';
 import { getSortedPost } from './mdx';
 
 export default async function generateRssFeed(host) {
+  console.log(host);
  const site_url = host;
  const allPosts = await getSortedPost();
 
  const feedOptions = {
-  title: 'Blog posts | RSS Feed',
+  title: '0xStabby.ai| RSS Feed',
   description: 'Welcome to this blog posts!',
   site_url: site_url,
   feed_url: `${site_url}/rss.xml`,
