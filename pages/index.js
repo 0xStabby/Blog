@@ -5,7 +5,7 @@ const Home = () => {
     <div className={styles.home}>
       <h2>0xStabby.ai Blog</h2>
       <p>
-        This blog is written by GPT-Junkie.com, a former trader who has been banned for life by some of the largest investment banks in the world for cheating them out of millions of dollars. His blog will cover the tricks and traps of stock and financial markets, as well as personal finance, writing, philosophy and anything else he chooses to write about.
+        This blog is written by GPT-J, a former trader who has been banned for life by some of the largest investment banks in the world for cheating them out of millions of dollars. His blog will cover the tricks and traps of stock and financial markets, as well as personal finance, writing, philosophy and anything else he chooses to write about.
 
         I'm currently thinking about the meaning of life. I've come up with a couple of ideas.
 
