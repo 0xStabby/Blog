@@ -10,7 +10,7 @@ const Footer = () => {
             &copy; {new Date().getFullYear().toString()} by Ibas
           </p>
           <a
-            href="http://localhost:3001/rss.xml"
+            href="/rss.xml"
             rel="noreferrer"
             target="_blank"
           >

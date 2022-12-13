@@ -5,8 +5,14 @@ import { getSortedPost } from '../../utils/mdx';
 import styles from '../../styles/Blog.module.css';
 import generateRssFeed from '../../utils/generateRSSFeed';
 
-export async function getStaticProps() {
-  await generateRssFeed();
+export async function getStaticProps(context) {
+   const { req, query, res, asPath, pathname } = context;
+   let host;
+   if (req) {
+      host = req.headers.host // will give you localhost:3000
+   }
+
+  await generateRssFeed(host);
   const postsData = await getSortedPost();
   return {
     props: {

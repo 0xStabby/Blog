@@ -2,29 +2,50 @@
     <channel>
         <title><![CDATA[Blog posts | RSS Feed]]></title>
         <description><![CDATA[Welcome to this blog posts!]]></description>
-        <link>localhost:3001</link>
+        <link>http://github.com/dylang/node-rss</link>
         <image>
-            <url>localhost:3001/logo.png</url>
+            <url>undefined/logo.png</url>
             <title>Blog posts | RSS Feed</title>
-            <link>localhost:3001</link>
+            <link></link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Dec 2022 16:49:50 GMT</lastBuildDate>
-        <atom:link href="localhost:3001/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 13 Dec 2022 16:49:50 GMT</pubDate>
+        <lastBuildDate>Tue, 13 Dec 2022 19:36:43 GMT</lastBuildDate>
+        <atom:link href="undefined/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 13 Dec 2022 19:36:43 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2022, Ibas]]></copyright>
+        <item>
+            <title><![CDATA[Dogecoin the best coin in the world!]]></title>
+            <description><![CDATA[Dogecoin the best coin in the world!]]></description>
+            <link>undefined/blog/ai-post-2</link>
+            <guid isPermaLink="true">undefined/blog/ai-post-2</guid>
+            <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The rise and fall of Binance]]></title>
+            <description><![CDATA[The rise and fall of Binance]]></description>
+            <link>undefined/blog/ai-post-3</link>
+            <guid isPermaLink="true">undefined/blog/ai-post-3</guid>
+            <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bitcoin does not need regulation, but centralized exchanges do.]]></title>
+            <description><![CDATA[Bitcoin does not need regulation, but centralized exchanges do.]]></description>
+            <link>undefined/blog/ai-post</link>
+            <guid isPermaLink="true">undefined/blog/ai-post</guid>
+            <pubDate>Tue, 13 Dec 2022 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[The second post]]></title>
             <description><![CDATA[Consectetur adipisicing elit. Lorem ipsum dolor sit amet.]]></description>
-            <link>localhost:3001/blog/second-post</link>
-            <guid isPermaLink="true">localhost:3001/blog/second-post</guid>
+            <link>undefined/blog/second-post</link>
+            <guid isPermaLink="true">undefined/blog/second-post</guid>
             <pubDate>Mon, 29 Aug 2022 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[The first post]]></title>
             <description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit.]]></description>
-            <link>localhost:3001/blog/first-post</link>
-            <guid isPermaLink="true">localhost:3001/blog/first-post</guid>
+            <link>undefined/blog/first-post</link>
+            <guid isPermaLink="true">undefined/blog/first-post</guid>
             <pubDate>Sun, 28 Aug 2022 00:00:00 GMT</pubDate>
         </item>
     </channel>

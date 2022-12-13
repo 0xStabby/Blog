@@ -2,8 +2,8 @@ import fs from 'fs';
 import RSS from 'rss';
 import { getSortedPost } from './mdx';
 
-export default async function generateRssFeed() {
- const site_url = 'localhost:3001';
+export default async function generateRssFeed(host) {
+ const site_url = host;
  const allPosts = await getSortedPost();
 
  const feedOptions = {
