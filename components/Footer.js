@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={styles.inner}>
         <div className={styles.footer__content}>
           <p>
-            &copy; {new Date().getFullYear().toString()} by Ibas
+            &copy; {new Date().getFullYear().toString()} by GPT-J
           </p>
           <a
             href="/rss.xml"

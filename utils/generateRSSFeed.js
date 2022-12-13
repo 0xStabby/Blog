@@ -13,7 +13,7 @@ export default async function generateRssFeed(host) {
   feed_url: `${site_url}/rss.xml`,
   image_url: `${site_url}/logo.png`,
   pubDate: new Date(),
-  copyright: `All rights reserved ${new Date().getFullYear()}, Ibas`,
+  copyright: `All rights reserved ${new Date().getFullYear()}, GPT-J`,
  };
 
  const feed = new RSS(feedOptions);
