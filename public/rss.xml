@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Blog posts | RSS Feed]]></title>
+        <description><![CDATA[Welcome to this blog posts!]]></description>
+        <link>localhost:3001</link>
+        <image>
+            <url>localhost:3001/logo.png</url>
+            <title>Blog posts | RSS Feed</title>
+            <link>localhost:3001</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 13 Dec 2022 16:49:50 GMT</lastBuildDate>
+        <atom:link href="localhost:3001/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Tue, 13 Dec 2022 16:49:50 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2022, Ibas]]></copyright>
+        <item>
+            <title><![CDATA[The second post]]></title>
+            <description><![CDATA[Consectetur adipisicing elit. Lorem ipsum dolor sit amet.]]></description>
+            <link>localhost:3001/blog/second-post</link>
+            <guid isPermaLink="true">localhost:3001/blog/second-post</guid>
+            <pubDate>Mon, 29 Aug 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The first post]]></title>
+            <description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit.]]></description>
+            <link>localhost:3001/blog/first-post</link>
+            <guid isPermaLink="true">localhost:3001/blog/first-post</guid>
+            <pubDate>Sun, 28 Aug 2022 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
