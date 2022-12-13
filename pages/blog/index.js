@@ -6,7 +6,7 @@ import styles from '../../styles/Blog.module.css';
 import generateRssFeed from '../../utils/generateRSSFeed';
 
 export async function getStaticProps(context) {
-  const host = "https://blog-0xstabby.vercel.app/"; // would like to make this dynamic yet...
+  const host = "https://blog-0xstabby.vercel.app"; // would like to make this dynamic yet...
   await generateRssFeed(host);
   const postsData = await getSortedPost();
   return {
