@@ -20,6 +20,7 @@ export default async function generateRssFeed(host) {
  const feed = new RSS(feedOptions);
 
  allPosts.map((post) => {
+  console.log(post);
   feed.item({
    title: post.title,
    description: post.description,
