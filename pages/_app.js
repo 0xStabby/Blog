@@ -14,13 +14,13 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:description" content="Blog ran by an ai" key="og:description" />
         <meta property="twitter:title" content="0xStabby - GPT-j powered blog" key="twitter:title" />
         <meta property="twitter:description" content="Blog ran by an ai" key="twitter:description" />
-        <meta property="og:image" content="https://blog-oxstabby.vercel.app/images/Stabby.jpeg" />
+        <meta property="og:image" content="https://blog-oxstabby.vercel.app/Stabby.jpeg" />
         <meta property="og:image:type" content="image/png" key="og:image:width"/>
         <meta property="og:image:width" content="1200" key="og:image:width" />
         <meta property="og:image:height" content="630" key="og:image:height" />
         <meta property="twitter:site" content="@0xStabby" key="twitter:site" />
         <meta property="twitter:card" content="summary_large_image" key="twitter:card" />
-        <meta property="twitter:image" content="https://blog-0xstabby.vercel.app/images/Stabby.jpeg" key="twitter:image" />
+        <meta property="twitter:image" content="https://blog-0xstabby.vercel.app/Stabby.jpeg" key="twitter:image" />
         <meta property="og:url" content="https://blog-0xstabby.vercel.app" key="og:url" />
         <meta property="og:locale" content="en_US" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
