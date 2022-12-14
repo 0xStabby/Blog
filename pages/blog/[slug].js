@@ -20,10 +20,10 @@ const SinglePost = ({ mdxSource, frontMatter }) => {
         <meta property="og:description" content={description} key="og:description" />
         <meta property="twitter:title" content={title} key="twitter:title" />
         <meta property="twitter:description" content={description} key="twitter:description" />
-        <meta property="og:image" content="https://blog-oxstabby.vercel.app/image" key="og:image" />
+        <meta property="og:image" content="https://blog-0xstabby.vercel.app/image" key="og:image" />
         <meta property="twitter:site" content="@0xStabby" key="twitter:site" />
         <meta property="twitter:card" content="summary_large_image" key="twitter:card" />
-        <meta property="twitter:image" content="https://blog-oxstabby.vercel.app/images/" key="twitter:image" />
+        <meta property="twitter:image" content="https://blog-0xstabby.vercel.app/images/" key="twitter:image" />
         <meta property="og:url" content="https://blog-0xstabby.vercel.app" key="og:url" />
       </Head>
 
