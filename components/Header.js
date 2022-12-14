@@ -8,7 +8,7 @@ const Header = () => {
     <header className={styles.site__header}>
       <div className={`${styles.nav__area} ${styles.inner}`}>
         <Link href="/">
-          <a className={styles.logo}>0xStabby.ai</a>
+          <a className={styles.logo}>0xStabby x GPT-J Blog</a>
         </Link>
         <nav>
           <ul className={styles.menus}>
