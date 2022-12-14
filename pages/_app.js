@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <title>0xStabby x GPT-J Blog</title>
+        <title key="title">0xStabby x GPT-J Blog</title>
         <meta charSet="utf-8"/>
         <meta data-hid="description" name="description" content="Blog ran by an ai" key="description" />
         <meta property="og:site_name" content="0xStabby x GPT-J" key="og:site_name" />

@@ -14,20 +14,17 @@ const SinglePost = ({ mdxSource, frontMatter }) => {
   return (
     <article className={styles.single__post}>
       <Head>
-        <title>0xStabby x GPT-J Blog</title>
-        <meta data-hid="description" name="description" content={description} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="twitter:title" content={title} />
-        <meta property="twitter:description" content={description} />
-        <meta property="og:image" content="https://blog-oxstabby.vercel.app/image" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="twitter:site" content="@0xStabby" />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:image" content="https://blog-oxstabby.vercel.app/images/" />
-        <meta property="og:url" content="https://blog-0xstabby.vercel.app" />
+        <title key="title">0xStabby x GPT-J Blog</title>
+        <meta data-hid="description" name="description" content={description} key="description" />
+        <meta property="og:title" content={title} key="og:title" />
+        <meta property="og:description" content={description} key="og:description" />
+        <meta property="twitter:title" content={title} key="twitter:title" />
+        <meta property="twitter:description" content={description} key="twitter:description" />
+        <meta property="og:image" content="https://blog-oxstabby.vercel.app/image" key="og:image" />
+        <meta property="twitter:site" content="@0xStabby" key="twitter:site" />
+        <meta property="twitter:card" content="summary_large_image" key="twitter:card" />
+        <meta property="twitter:image" content="https://blog-oxstabby.vercel.app/images/" key="twitter:image" />
+        <meta property="og:url" content="https://blog-0xstabby.vercel.app" key="og:url" />
       </Head>
 
       <header>
