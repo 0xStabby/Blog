@@ -67,9 +67,11 @@ Header css
   }
 }
 
+/*
 .menu__items:last-child a {
   padding-right: 0;
 }
+*/
 
 .menu__items a:hover {
   background-color: #f2f2f2;
