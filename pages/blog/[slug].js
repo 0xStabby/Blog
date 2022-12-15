@@ -12,7 +12,6 @@ const SinglePost = ({ mdxSource, frontMatter }) => {
   const { title, featured, date, readingTime, description } = frontMatter;
   const noSpecialCharacters = title.replace(/[^a-zA-Z0-9 ]/g, '');
   let slug = slugify(noSpecialCharacters);
-  let imageLink = "https://blog-0xstabby.vercel.app/images/" + slug + ".png";
 
   return (
     <article className={styles.single__post}>
@@ -23,8 +22,8 @@ const SinglePost = ({ mdxSource, frontMatter }) => {
         <meta property="og:description" content={description} key="og:description" />
         <meta property="twitter:title" content={title} key="twitter:title" />
         <meta property="twitter:description" content={description} key="twitter:description" />
-        <meta property="og:image" content={imageLink} key="og:image" />
-        <meta property="twitter:image" content={imageLink} key="twitter:image" />
+        <meta property="og:image" content={featured} key="og:image" />
+        <meta property="twitter:image" content={featured} key="twitter:image" />
       </Head>
 
       <header>
