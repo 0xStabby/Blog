@@ -16,7 +16,7 @@ const SinglePost = ({ mdxSource, frontMatter }) => {
   return (
     <article className={styles.single__post}>
       <Head>
-        <title key="title">0xStabby x GPT-J Blog</title>
+        <title key="title">0xStabby</title>
         <meta data-hid="description" name="description" content={description} key="description" />
         <meta property="og:title" content={title} key="og:title" />
         <meta property="og:description" content={description} key="og:description" />

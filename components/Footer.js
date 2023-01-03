@@ -7,7 +7,15 @@ const Footer = () => {
       <div className={styles.inner}>
         <div className={styles.footer__content}>
           <p>
-            &copy; {new Date().getFullYear().toString()} by GPT-J
+            &copy; {new Date().getFullYear().toString()} by {' '}
+              <a
+                href={`https://twitter.com/0xStabby`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="twitter"
+              >
+                0xStabby
+              </a>
           </p>
           <a
             href="/rss.xml"

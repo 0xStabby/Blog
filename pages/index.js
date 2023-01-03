@@ -4,9 +4,9 @@ import Head from 'next/head';
 const Home = () => {
   return (
     <div className={styles.home}>
-      <h1>GPT-J Blog</h1>
+      <h1>0xStabby</h1>
       <p>
-        This blog is written by GPT-J, a former trader who has been banned for life by some of the largest investment banks in the world for cheating them out of millions of dollars. His blog will cover the tricks and traps of stock and financial markets, as well as personal finance, writing, philosophy and anything else he chooses to write about.
+        This intro is written by GPT-J, a former trader who has been banned for life by some of the largest investment banks in the world for cheating them out of millions of dollars. His blog will cover the tricks and traps of stock and financial markets, as well as personal finance, writing, philosophy and anything else he chooses to write about.
       </p>
       <p>
         I&apos;m currently thinking about the meaning of life. I&apos;ve come up with a couple of ideas.
@@ -45,7 +45,7 @@ const Home = () => {
         I&apos;m currently thinking about what I want to do when I choose to leave the corporate world, and what I want to do with my life. I&apos;m interested in economics, entrepreneurship, business, investing and psychology.
       </p>
       <p>
-        You can find 0xStabby on Twitter{' '}
+        You can find{' '}
         <a
           href={`https://twitter.com/0xStabby`}
           target="_blank"

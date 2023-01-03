@@ -1,0 +1,101 @@
+---
+title: 'Using Blender, on linux, through an ipad'
+date: '2023-01-03'
+featured: '/images/TabletTools-with-Blender.jpeg'
+description: 'How to use Blender on linux through an Ipad'
+---
+
+## How to use Blender on linux through an Ipad.
+
+![Using Tablet Tools with Blender](/images/TabletTools-with-Blender.gif)
+
+## My current setup for getting this to work nicely
+
+Prerequisites:
+
+* [Weylus](https://github.com/H-M-H/Weylus) (to connect ipad to linux)
+* [TabletTools](https://github.com/0xStabby/TabletTools) (for hotkeys to make this more useable)
+
+
+Firstly, before connecting through weylus we will need a screen to share.
+Through Weylus you are able to share, either:
+
+* Full Desktop
+Doesn't really work if you have a large or multimonitor setup,
+
+* Full Monitor
+Works but would be nice to have a virtual monitor over duplicating a monitor,
+
+* Single Application
+Works, but unable unable to use a second application for hotkeys
+
+So with all our options, for me the best one was Full Monitor, but with a virtual monitor as to use the Ipad as another screen, and not just a duplicate.
+
+To do this we will use xrandr to create and add a new mode and output to our new virtual monitor:
+
+Decide a resolution, may be some guessing here, but can find resolutions for ipads on the internet to start from. I use an Ipad Pro so the resolution I ended with after some tweaks is 1368x1000, this accounts for the space lost to the status bar at the top of the Ipad OS.
+
+To create a new mode for xrandr we will use cvt to create a new mode line for our specifications.
+The last number being the refresh rate.
+```sh
+cvt 1368 1000 60
+
+```
+This will give you a result like:
+```sh
+# 1368x1000 59.95 Hz (CVT) hsync: 62.22 kHz; pclk: 113.00 MHz
+Modeline "1368x1000_60.00"  113.00  1368 1448 1592 1816  1000 1003 1013 1038 -hsync +vsync
+
+```
+
+Use the Modeline to create a new xrandr mode
+```sh
+xrandr --newmode "1368x1000_60.00"  113.00  1368 1448 1592 1816  1000 1003 1013 1038 -hsync +vsync
+
+```
+
+With our new mode added we now add the mode to our open output. First lets choose a disconnected output from the output of 
+```sh
+xrandr
+
+```
+Should look something like this:
+```sh
+Screen 0: minimum 320 x 200, current 5760 x 3160, maximum 16384 x 16384
+DisplayPort-0 disconnected (normal left inverted right x axis y axis)
+DisplayPort-1 connected primary 3840x2160+1920+0 (normal left inverted right x axis y axis) 600mm x 340mm
+   720x480       60.00*+  59.94  
+   640x480       60.00    59.94  
+
+```
+Add the mode to the output you want, here I use DisplayPort-0
+```sh
+xrandr --addmode DisplayPort-0 1368x1000_60.00
+
+```
+
+With the new mode added to the output, you can now actually output that virtual monitor. This command puts it below my other monitor, but you can set it on any side.
+```sh
+xrandr --output DisplayPort-0 --mode 1368x1000_60.00 --below DisplayPort-1
+
+```
+
+And bam, now you have a Virtual Monitor setup.
+
+Now open up Weylus, and follow the qr code on your ipad to connect.
+
+You can now see your new virtual monitor on your ipad. If you want to get the most out of your ipad screen I recommend opening the Weylus link in Safari, and adding the page to your Ipad home page, this way you do not have any tabs taking up your valuable screen real estate.
+
+
+
+## Setting up TabletTools
+
+You can work without these, but you will have more limits, TabletTools is designed to be a simple customizable hotkey toolbar for using linux on an Ipad.
+
+Some things you may realize at first that there is no way to right click with the current setup, or in blender there is no way to hold down "Alt" or Shift" which are required for basic movement around the viewport.
+This is what TabletTools solves.
+
+Currently there are Toggle Switches for Alt and Shift, as well as buttons for right click and undo. Likely more features on the way, I only concieved the app yesterday..
+
+For TabletTools setup refer to the [README in the TabletTools repo](https://github.com/0xStabby/TabletTools#prerequisites)
+

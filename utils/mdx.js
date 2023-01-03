@@ -30,7 +30,7 @@ export async function getSortedPost() {
     const content = fs.readFileSync(filePath, 'utf8');
     const { data } = matter(content);
 
-    postLists.push({ ...data, slug: file.replace('.mdx', '') });
+    postLists.push({ ...data, slug: file.replace('.mdx', ''), content: content });
   });
 
   // Sort posts by date

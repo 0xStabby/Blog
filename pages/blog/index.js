@@ -23,10 +23,6 @@ const Blog = ({ postsData }) => {
       <ul>
         {postsData.map((post) => {
           const { slug, title, date, description } = post;
-          console.log(post);
-          console.log(date);
-          console.log(parseISO(date));
-
           return (
             <li className={styles.post_item} key={slug}>
               <Link href={`/blog/${slug}`}>

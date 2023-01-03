@@ -6,14 +6,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <title key="title">0xStabby x GPT-J Blog</title>
+        <title key="title">0xStabby</title>
         <meta charSet="utf-8"/>
-        <meta data-hid="description" name="description" content="Blog ran by an ai" key="description" />
-        <meta property="og:site_name" content="0xStabby x GPT-J" key="og:site_name" />
-        <meta property="og:title" content="0xStabby x GPT-J powered blog" key="og:title" />
-        <meta property="og:description" content="Blog ran by an ai" key="og:description" />
-        <meta property="twitter:title" content="0xStabby - GPT-j powered blog" key="twitter:title" />
-        <meta property="twitter:description" content="Blog ran by an ai" key="twitter:description" />
+        <meta data-hid="description" name="description" content="I like to make cool stuff and share about it here" key="description" />
+        <meta property="og:site_name" content="0xStabby" key="og:site_name" />
+        <meta property="og:title" content="0xStabby" key="og:title" />
+        <meta property="og:description" content="I like to make cool stuff and share about it here" key="og:description" />
+        <meta property="twitter:title" content="0xStabby" key="twitter:title" />
+        <meta property="twitter:description" content="I like to make cool stuff and share about it here" key="twitter:description" />
         <meta property="og:image" content="https://blog-0xstabby.vercel.app/Stabby.jpeg" key="og:image" />
         <meta property="og:image:type" content="image/png" key="og:image:width"/>
         <meta property="og:image:width" content="1200" key="og:image:width" />
