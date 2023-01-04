@@ -8,6 +8,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Website Online][website-online-shield]][website-online-url]
+[![Production Deployment][deployment-shield]][deployment-url]
 
 
 
@@ -209,6 +210,8 @@ Website Link: [https://0xStabby.com](https://0xStabby.com)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
+[deployments-shield]: https://img.shields.io/github/deployments/0xStabby/Blog/Production?style=for-the-badge
+[deployments-url]: https://github.com/0xStabby/Blog/deployments/activity_log?environment=Production
 [website-online-shield]: https://img.shields.io/website?style=for-the-badge&up_message=online&url=https%3A%2F%2F0xStabby.com
 [website-online-url]: https://0xStabby.com
 [contributors-shield]: https://img.shields.io/github/contributors/0xStabby/Blog.svg?style=for-the-badge
