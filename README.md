@@ -189,7 +189,7 @@ Your Name - [@0xStabby](https://twitter.com/0xStabby)
 
 Project Link: [https://github.com/0xStabby/Blog](https://github.com/0xStabby/Blog)
 
-Website Link: [https://0xStabby.com/Blog](https://0xStabby.com/Blog)
+Website Link: [https://0xStabby.com](https://0xStabby.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
