@@ -15,15 +15,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/0xStabby/Blog">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/Stabby.jpeg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">0xStabby Blog</h3>
+  <h3 align="center">0xStabby Blog</h3>
 
   <p align="center">
     Personal Blog, I like to make stuff and share it here.
-    <br />
-    <a href="https://github.com/0xStabby/Blog"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/0xStabby/Blog">View Demo</a>
@@ -221,7 +219,7 @@ Project Link: [https://github.com/0xStabby/Blog](https://github.com/0xStabby/Blo
 [issues-url]: https://github.com/0xStabby/Blog/issues
 [license-shield]: https://img.shields.io/github/license/0xStabby/Blog.svg?style=for-the-badge
 [license-url]: https://github.com/0xStabby/Blog/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: public/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
