@@ -6,6 +6,8 @@ const Home = () => {
     <div className={styles.home}>
       <h1>0xStabby</h1>
 
+      <p>I like to make cool stuff and talk about it here.</p>
+
       <p>
         You can find{' '}
         <a
