@@ -1,0 +1,27 @@
+---
+title: 'New features added to chatgpt-vim'
+date: '2023-03-01'
+featured: '/images/gpf-gpr-demo.gif'
+description: 'ChatGPT helped me make a ChatGPT Vim plugin.'
+---
+
+## Introduction
+Vim is a highly customizable text editor that offers a wide range of features for developers and text enthusiasts. One of the most popular features of Vim is its plugin system, which allows users to extend its functionality in various ways. [chatgpt-vim](https://github.com/0xStabby/chatgpt-vim) is a Vim plugin that integrates with the OpenAI API to generate text based on user inputs. We'll cover the new functions that were added in the latest release - GPTFile and GPTRun.
+
+## The Plugin Code
+The plugin code defines three functions - GPT, GPTRun, and GPTFile - that communicate with the OpenAI API to generate text based on user inputs. These functions are then bound to commands that can be executed within Vim, and three key mappings are created for convenience - gpt, gpr, and gpf. Let's take a closer look at each of these functions.
+
+### GPT
+* The GPT function prompts the user to enter a chatgpt prompt and sends it to the OpenAI API using the openai complete command. If the OPENAI_API_TOKEN environment variable is set, the API token is used for authentication. Otherwise, the token is read from the ~/.config/openai.token file. The generated text is then displayed in the Vim command line, and the user is prompted to insert the output at the current cursor position.
+
+### GPTRun (new)
+* The GPTRun function prompts the user to confirm whether to run the current file using a specified command and sends the file contents along with a message to the OpenAI API. The generated text is displayed in the Vim command line, and the user is prompted to insert the output at the current cursor position.
+
+### GPTFile (new)
+* The GPTFile function prompts the user to confirm whether to send the contents of the current file along with a message to the OpenAI API. The generated text is displayed in the Vim command line, and the user is prompted to insert the output at the current cursor position.
+
+## Conclusion
+The Vim plugin we discussed in this blog post provides an easy way to generate text based on user inputs and can be used for a variety of tasks, such as generating code suggestions, answering questions, or generating text summaries. The new functions added in the latest release - GPTFile and GPTRun - provide additional functionality and make the plugin even more versatile. If you're a Vim user and you haven't tried the [chatgpt-vim plugin](https://github.com/0xStabby/chatgpt-vim) yet, give it a shot and let us know what you think!
+
+### More Info
+For more info you can checkout this [blog post](/blog/yes-chatgpt-helped-me-make-a-chatgpt-vim-plugin) or the [chatgpt-vim github](https://github.com/0xStabby/chatgpt-vim)

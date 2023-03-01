@@ -9,16 +9,23 @@
             <link>https://blog-0xstabby.vercel.app</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Mar 2023 04:27:45 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Mar 2023 23:41:29 GMT</lastBuildDate>
         <atom:link href="https://blog-0xstabby.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 01 Mar 2023 04:27:45 GMT</pubDate>
+        <pubDate>Wed, 01 Mar 2023 23:41:29 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023, 0xStabby]]></copyright>
+        <item>
+            <title><![CDATA[New features added to chatgpt-vim]]></title>
+            <description><![CDATA[ChatGPT helped me make a ChatGPT Vim plugin.]]></description>
+            <link>https://blog-0xstabby.vercel.app/blog/new-features-added-to-chatgpt-vim</link>
+            <guid isPermaLink="true">https://blog-0xstabby.vercel.app/blog/new-features-added-to-chatgpt-vim</guid>
+            <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Writing secure smart contract code with solidity]]></title>
             <description><![CDATA[How to write secure solidity contracts, tips and tricks]]></description>
             <link>https://blog-0xstabby.vercel.app/blog/writing-secure-smart-contract-code-with-solidity</link>
             <guid isPermaLink="true">https://blog-0xstabby.vercel.app/blog/writing-secure-smart-contract-code-with-solidity</guid>
-            <pubDate>Wed, 08 Feb 2023 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 28 Feb 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ChatGPT helped me make a ChatGPT Vim plugin.]]></title>
