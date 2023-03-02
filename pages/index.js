@@ -9,17 +9,28 @@ const Home = () => {
       <p>I like to make cool stuff and talk about it here.</p>
 
       <p>
-        You can find{' '}
+        You can find 0xStabby on{' '}
         <a
           href={`https://twitter.com/0xStabby`}
           target="_blank"
           rel="noopener noreferrer"
           title="twitter"
         >
-          0xStabby on Twitter
+          Twitter
+        </a>
+        {' '}and{' '}
+        <a
+          href={`https://github.com/0xStabby`}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="github"
+        >
+          Github
         </a>
         .
       </p>
+
+
     </div>
   );
 };
