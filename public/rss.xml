@@ -9,13 +9,20 @@
             <link>https://blog-0xstabby.vercel.app</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Mar 2023 23:41:29 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Mar 2023 05:33:01 GMT</lastBuildDate>
         <atom:link href="https://blog-0xstabby.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 01 Mar 2023 23:41:29 GMT</pubDate>
+        <pubDate>Thu, 02 Mar 2023 05:33:01 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2023, 0xStabby]]></copyright>
         <item>
+            <title><![CDATA[Why Test-Driven Development is important for writing secure smart contracts]]></title>
+            <description><![CDATA[Should you be writing tests first then code? Yes]]></description>
+            <link>https://blog-0xstabby.vercel.app/blog/why-test-driven-development-is-important-for-writing-secure-smart-contracts</link>
+            <guid isPermaLink="true">https://blog-0xstabby.vercel.app/blog/why-test-driven-development-is-important-for-writing-secure-smart-contracts</guid>
+            <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[New features added to chatgpt-vim]]></title>
-            <description><![CDATA[ChatGPT helped me make a ChatGPT Vim plugin.]]></description>
+            <description><![CDATA[chatgpt-vim just got 2 new features!]]></description>
             <link>https://blog-0xstabby.vercel.app/blog/new-features-added-to-chatgpt-vim</link>
             <guid isPermaLink="true">https://blog-0xstabby.vercel.app/blog/new-features-added-to-chatgpt-vim</guid>
             <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
