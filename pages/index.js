@@ -6,7 +6,7 @@ const Home = () => {
     <div className={styles.home}>
       <h1>0xStabby</h1>
 
-      <p>I like to make cool stuff and talk about it here.</p>
+      <h3>I like to make cool stuff and talk about it here.</h3>
 
       <p>
         You can find 0xStabby on{' '}
