@@ -9,10 +9,10 @@
             <link>https://blog-0xstabby.vercel.app</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Mar 2023 05:43:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jan 2024 17:52:08 GMT</lastBuildDate>
         <atom:link href="https://blog-0xstabby.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 02 Mar 2023 05:43:00 GMT</pubDate>
-        <copyright><![CDATA[All rights reserved 2023, 0xStabby]]></copyright>
+        <pubDate>Thu, 11 Jan 2024 17:52:08 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2024, 0xStabby]]></copyright>
         <item>
             <title><![CDATA[Why Test-Driven Development is important for writing secure smart contracts]]></title>
             <description><![CDATA[Should you be writing tests first then code? Yes]]></description>

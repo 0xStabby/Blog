@@ -2,6 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
 
-module.exports = nextConfig
+  async rewrites() {
+    return [
+      {
+        source: '/setup.sh',
+        destination: '/api/setup.sh',
+      },
+    ];
+  },
+};
+
+module.exports = nextConfig;
